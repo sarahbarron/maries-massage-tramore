@@ -266,6 +266,13 @@ h2 {
 
 .desktop-hide {display: none;}
 
+.mainDiv{
+  border-radius: 150px;
+  margin: 0px 40px;
+  padding:50px;
+
+}
+
  #myNav{
   
   -webkit-animation-delay:10s;
