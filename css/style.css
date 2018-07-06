@@ -1,0 +1,414 @@
+/* THIS REMOVES ANY WHITE SPACE AROUND THE EDGE OF THE PAGE*/
+html,body
+{
+  overflow-x: hidden; 
+  margin:0px;
+}
+body{
+  font-family: 'Rouge Script', cursive;
+}
+
+
+p{
+  font-family: 'Italianno', cursive;
+}
+.color{
+  color: #7D2C4D;
+}
+
+.anchorDiv{
+  min-height: 70px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.container-fluid{
+  margin: 0px;
+  padding:0px;
+  border-radius: 0px;
+  background-image: url("../pictures/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  opacity:0.7;
+  width: 100%;
+  background-size: cover;
+}
+.navbar{
+    border: 0px 0px 2px 0px;
+    border-bottom-style: solid;
+    border-bottom: solid;
+    border-color: #7D2C4D;
+  }
+
+ 
+.navbar-toggle{
+  padding-top: 20px;
+}
+.icon-bar{
+  background-color: #7D2C4D;
+  font-weight: bolder;
+  padding: 2px;
+}
+.navbar-brand{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.navbar-nav>p{
+  display: inline;
+  padding-right: 40px;
+  font-size: 35px;
+  padding-bottom: 0px;
+  font-weight: bolder;
+  
+}
+
+
+nav>*{
+  background-color: #EBEEf1;
+}
+
+a{
+  color: #7D2C4D;
+  text-decoration: none;
+ 
+}
+
+a:hover{  
+  color: #E16289;
+  text-decoration: none;
+}
+#logoDiv{
+
+	background-color: transparent;
+	opacity: 1;
+  padding-top: 50px;
+  height: 100vh;
+}
+
+#logo{
+	background-color: #f8d3d7;
+	max-width: 900px;
+	min-height: 250px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 200px;
+  margin: 100px 0px 0px 30px;
+}
+
+#logo>h1{
+	font-size: 130px;
+	padding-left: 20px;
+}
+#logo>h2{
+	color: #7D2C4D;
+	padding-top: 10px;
+	font-size: 100px;
+	padding-left: 50px;
+}
+
+
+h1{
+	color: #7D2C4D;
+	
+}
+
+.largeH1{
+	width: 100%;
+	font-size:300px;
+	font-weight: bolder;
+  z-index: 1;
+}
+
+h2{
+	color: #7D2C4D;
+	font-weight: : bold;
+	font-size: 60px;
+	text-align: center;
+}
+
+div{
+	background-color: #f8d3d7;
+	opacity: 1;
+}
+
+.mainDiv{
+	border-radius: 20px;
+  /*margin: 150px 0px;*/
+  padding:100px;
+
+}
+
+
+
+p, li{
+	font-size:40px; 
+	text-align: center;
+}
+
+li{
+	padding: 20px;
+}
+
+#profilePic{
+  background-color: #FFFFFF;
+}
+figure{
+  margin-top: 20px;
+}
+figcaption{
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.circle{
+    
+	border-radius:50%;
+}
+
+
+i{
+  font-size: 50px;
+  padding:20px;
+  text-align: center;
+}
+.socialmedia{
+  text-align: center;
+}
+
+.pictureBorder{
+  border: solid;
+  border-color:#7D2C4D;
+}
+
+/* ***************************   MOBILE   ***************  MOBILE **************************** */
+
+@media screen and (max-width: 768px) {
+
+#about, #contact, #profile, #treatments {
+  padding-top: 100px;
+}
+.mobile-hide {display: none;}
+
+
+.mainDiv{
+  top:80px;
+  margin: 20px;
+  padding: 10px;
+}
+
+#about{
+  margin-top: 100px;
+}
+
+p, li{
+  font-size:30px; 
+  text-align: center;
+}
+
+.navbar-collapse>p{
+  display: block;
+}
+h2{
+  font-size: 40px;
+}
+
+}
+/* ***************************   TABLET  ***************  TABLET **************************** */
+/*@media screen and (min-width: 768px ) {
+
+    #logoDiv{
+
+  height: 50vh;
+}
+
+
+
+}*/
+/* ***************************   DESKTOP ONLY   ***************  DESKTOP ONLY **************************** */
+
+
+@media only screen and (min-width: 992px) {
+
+
+
+.desktop-hide {display: none;}
+
+ #myNav{
+  
+  -webkit-animation-delay:10s;
+  animation-delay:10s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+}
+
+#logoDiv{
+
+  height: 100vh;
+}
+
+
+
+#borderLine{
+
+    -webkit-animation-delay:17s;
+    animation-delay:17s;
+    -webkit-animation-duration: 7s;
+    animation-duration: 7s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+}
+
+/*Logo transformation */
+
+.fixedIndulge{
+	position: fixed; 
+	top: 150px;
+  right: 180px;
+}
+
+.fixedRelax{
+  position: fixed; 
+  top: 10px;
+  left: 50px;
+}
+.fixedUnwind{
+	position: fixed; 
+	top: 100px;
+    left: 160px;	
+}
+
+.indulgeAnimated {
+  -webkit-animation-duration: 7s;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  
+}
+.relaxAnimated {
+  
+
+  -webkit-animation-delay:4s;
+  animation-delay: 4s;
+  -webkit-animation-duration: 7s;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.unwindAnimated {
+  -webkit-animation-delay:8s;
+  animation-delay: 8s;
+  -webkit-animation-duration: 7s;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.logoAnimated{
+	-webkit-animation-delay:12s;
+	animation-delay: 12s;
+	-webkit-animation-duration: 7s;
+  	animation-duration: 7s;
+  	-webkit-animation-fill-mode: both;
+  	animation-fill-mode: both;
+}
+
+
+/* zoom in*/
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+/* zoom In & out */
+@-webkit-keyframes zoomInOut {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  30% {
+    opacity: 1;
+  }
+  100%{
+  	opacity: 0;
+  }
+}
+
+@keyframes zoomInOut {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  30% {
+    opacity: 1;
+  }
+  100%{
+  	opacity: 0;
+  }
+}
+
+.zoomInOut {
+  -webkit-animation-name: zoomInOut;
+  animation-name: zoomInOut;
+}
+
+/*fade In*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+}
