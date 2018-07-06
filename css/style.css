@@ -17,8 +17,7 @@ p{
 }
 
 .anchorDiv{
-  min-height: 70
-  px;
+  min-height: 70px;
   width: 100%;
   background-color: transparent;
 }
@@ -215,26 +214,11 @@ h2{
   font-size: 40px;
 }
 
-}
-
 .container-fluid{
-  background-size: contain;
+  background-image: url("../pictures/mobilebackground.jpg");
 }
 
-
-/* ***************************   TABLET  ***************  TABLET **************************** */
-/*@media screen and (min-width: 768px ) {
-
-    #logoDiv{
-
-  height: 50vh;
 }
-
-
-
-}*/
-/* ***************************   DESKTOP ONLY   ***************  DESKTOP ONLY **************************** */
-
 
 @media only screen and (min-width: 992px) {
 
