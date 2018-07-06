@@ -233,13 +233,10 @@ p, li{
 
 .container-fluid{
   background-image: url("../pictures/mobilebackground.jpg");
+  background-size: contain;
+  background-repeat: repeat;
 }
-/*.anchorDiv{
-  height: 100px;
-  width: 100%;
-  background-color: transparent;
-}
-*/
+
 .anchorDiv{
   height: 80px;
 }
