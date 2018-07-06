@@ -17,7 +17,8 @@ p{
 }
 
 .anchorDiv{
-  min-height: 70px;
+  min-height: 70
+  px;
   width: 100%;
   background-color: transparent;
 }
@@ -215,6 +216,12 @@ h2{
 }
 
 }
+
+.container-fluid{
+  background-size: contain;
+}
+
+
 /* ***************************   TABLET  ***************  TABLET **************************** */
 /*@media screen and (min-width: 768px ) {
 
