@@ -212,9 +212,6 @@ i{
 
 @media screen and (max-width: 768px) {
 
-#about, #contact, #profile, #treatments {
-  padding-top: 100px;
-}
 .mobile-hide {display: none;}
 
 
@@ -222,10 +219,6 @@ i{
   top:80px;
   margin: 20px;
   padding: 10px;
-}
-
-#about{
-  margin-top: 100px;
 }
 
 p, li{
@@ -241,9 +234,14 @@ p, li{
 .container-fluid{
   background-image: url("../pictures/mobilebackground.jpg");
 }
-
+.anchorDiv{
+  height: 100px;
+  width: 100%;
+  background-color: transparent;
 }
 
+}
+/* ************************ DESKTOP *****************************************/
 @media only screen and (min-width: 992px) {
 
 
